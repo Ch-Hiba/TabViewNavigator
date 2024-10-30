@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#121212">
+    <ImageView
+        android:id="@+id/cityImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mess" />
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="30dp" />
+</LinearLayout>

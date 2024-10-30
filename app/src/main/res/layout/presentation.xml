@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=" Application de chat"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:shadowColor="#121212"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:padding="8dp" />
+    <TextView
+        android:id="@+id/presenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Découvrez une application de messagerie instantanée simple et sécurisée pour des conversations rapides et sans limites. Envoyez des messages, partagez photos, vidéos et documents, ou créez des groupes pour rester connecté avec vos proches et vos collègues. Profitez d'appels audio et vidéo de haute qualité, avec un chiffrement de bout en bout pour garantir la confidentialité de vos échanges. Personnalisez l'expérience avec des thèmes et des fonds d’écran pour un chat qui vous ressemble !"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+</LinearLayout>
